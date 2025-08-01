@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header, .hero {
+    background-color: #1f2937;
+    padding: 20px 400px;
+}
+
+.logo, .awesome {
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.awesome {
+    font-size: 48px;
+    
+}
+
+.hero-text, .header-links{
+    font-size: 18px;
+    color: #e5e7eb;
+   
+}
+.illustration {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
+}
+
+img {
+    width: 550px;
+    height: 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-links{
+    display: flex;
+    gap: 25px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px ;
+    padding-bottom: 70px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.sign {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 125px;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+.info {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.meow {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.container-info {
+    width: 200px;
+}
+
+h2 {
+    margin: 40px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.subtext {
+    color: #1f2937;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 400px;
+    background-color: #e5e7eb;
+}
+
+#quote {
+    font-size: 36px;
+    font-style:  italic;
+    font-weight: 300;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.author {
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.call {
+    padding: 80px 400px;
+}
+.container-call{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    border-radius: 15px;
+}
+
+.header-call {
+    margin: 0;
+    padding: 0;
+}
+
+.text-call {
+    margin: 0;
+    padding: 0;
+}
+
+.call .sign {
+    
+    border: 2px #e5e7eb solid;
+    
+    padding: 10px 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+
+}
+

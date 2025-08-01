@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="body"></div>
     <div class="header">
         <div class="logo">Header Logo</div>
         <ul class="header-links">
@@ -16,45 +21,47 @@
     </div>
     <div class="hero">
         <div class="hero-text">
-            <h1>This website is awesome</h1>
+            <h1 class="awesome">This website is awesome</h1>
             <p>This website has some subtext that goes here under the main title. It's a smaller font and color is lower contrast</p>
             <button class="sign">Sign up</button>
         </div>
-        <img src="/images/cat.jpg">
+        <img src="./images/cat.jpg" alt="Cat">
     </div>
     <div class="info">
         <h2>Some random information</h2>
+        <div class="meow">
         <div class="container-info">
-            <div class="illustation">
-                <img src="images/kitty.jpg" alt="kitty">
-            </div>
+            
+                <img class="illustration" src="images/kitty.jpg" alt="kitty">
+            
             <div class="subtext">
                 <p>This is some subtext under illustration ot image</p>
             </div>
         </div>
         <div class="container-info">
-            <div class="illustation">
-                <img src="images/kitty.jpg" alt="kitty">
-            </div>
+            
+                <img class="illustration" src="images/kitty.jpg" alt="kitty">
+            
             <div class="subtext">
                 <p>This is some subtext under illustration ot image</p>
             </div>
         </div>
         <div class="container-info">
-            <div class="illustation">
-                <img src="images/kitty.jpg" alt="kitty">
-            </div>
+            
+                <img class="illustration" src="images/kitty.jpg" alt="kitty">
+            
             <div class="subtext">
                 <p>This is some subtext under illustration ot image</p>
             </div>
         </div>
         <div class="container-info">
-            <div class="illustation">
-                <img src="images/kitty.jpg" alt="kitty">
-            </div>
+            
+                <img  src="images/kitty.jpg" alt="kitty" class="illustration">
+        
             <div class="subtext">
                 <p>This is some subtext under illustration ot image</p>
             </div>
+        </div>
         </div>
     </div>
     <div class="quote">
@@ -67,16 +74,21 @@
         </p>
     </div>
     <div class="call">
-        <h1 class="header-call">
-            Call to action! It's time!
-        </h1>
-        <p class="text-call">
-            Sign up for our product by clicking that button right over there! 
-        </p>
-        <button class="sign">Sign up</button>
+        <div class="container-call">
+            <div>
+            <h1 class="header-call">
+                Call to action! It's time!
+            </h1>
+            <p class="text-call">
+                Sign up for our product by clicking that button right over there! 
+            </p>
+        </div>
+            <button class="sign">Sign up</button>
+            
+        </div>
     </div>
     <div class="footer">
-        <p>Copyright © The Odin Project 2021</p>
+        <p id="footer">Copyright © The Odin Project 2021</p>
     </div>
 </body>
 </html>
